@@ -1,0 +1,75 @@
+/*pc*/
+/* xài em vi đv em không bị lỗi trên nhiều trình duyệt khác nhau*/
+@media (min-width:64em) {
+    .pc{
+        display: block;
+    }
+}
+
+/*table-mobie*/
+@media (max-width:64em){
+    .btn{
+        padding:15px 16px;
+    }
+    .contact-form .form-control{
+        padding:15px;
+        font-size: 16px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
+/*table*/
+@media (min-width:46.1875em) and(max-width:63.9375em){
+    .table{
+        display: block;
+    }
+}
+/*mobie*/
+@media (max-width:46.1875em) {
+    #nav{
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li a{
+        padding:1px 24px;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .sub_nav{
+        position: initial;  
+    }
+    #nav .sub_nav li a{
+        color:#aaa;
+        background-color:#333;
+        padding:0 41px;
+    }
+    #header .search-icon{
+        display: none;
+    }
+    #header .menu-mobile-btn{
+        display: block;
+    }
+    #content .member-img{
+        width:60%;
+    }
+    .s-ful-width,
+    .s-col-full{
+        width:100%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    .contact-submit-btn{
+        font-size: 17px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+}
